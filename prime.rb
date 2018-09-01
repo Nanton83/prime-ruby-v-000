@@ -14,3 +14,4 @@ def prime?(num)
 end
 
 
+puts Benchmark.measure { BigMath.PI(10_000) 
