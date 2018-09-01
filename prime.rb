@@ -1,7 +1,7 @@
 require 'benchmark'
 require 'bigdecimal/math'
 
-puts Benchmark.measure { BigMath.PI(10_000) 
+puts Benchmark.measure { BigMath.PI(10_000)} 
 
 def prime?(num)
   
