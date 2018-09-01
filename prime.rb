@@ -1,4 +1,5 @@
-
+require 'benchmark'
+require 'bigdecimal/math'
 
 
 def prime?(num)
